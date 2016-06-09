@@ -9,5 +9,21 @@ var totalDamage = 0;
 
 while (slaying){
     slaying = false;
-    
+    if(youHit === 1){
+        console.log("You hit the dragon!");
+        totalDamage+=damageThisRound;
+            if (totalDamage >= 4){
+                console.log("You win!");
+                slaying=false;
+                }
+            else{
+                youHit=Math.floor(Math.random()* 2);
+            }
     }
+    else{
+        console.log("The dragon defeated you!");
+        slaying=false; 
+    }
+    
+}
+
