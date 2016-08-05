@@ -1,0 +1,15 @@
+/*.fruit is a SELECTOR */
+/* we are using dot because fruit is a class attribute.When we class,to select this attribute in CSS
+we are using .(dot).
+*/
+/*
+These are DECLARATION BLOCK
+{
+	color: pink;
+}
+Here,color is a PROPERTY NAME and pink is PROPERTY VALUE
+*/
+
+.fruit{
+	color: pink;
+}
